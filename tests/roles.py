@@ -3,6 +3,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 
+
 def inner_voice(input):
     llm = OpenAI(temperature=0.9)
     prompt = PromptTemplate(
@@ -19,7 +20,7 @@ def iv_emotion(input):
     prompt = PromptTemplate(
         input_variables=["message"],
         template="""
-        You are an expert emotional analyst, your job is to read a text and answer with the 3 strongest emotions the writer is feeling and their score from -10 to 10.
+        You are an expert emotional analyst, your job is to read a text and answer with the 3 strongest emotions the writer is feeling and their score from -10 to 10. where -10 equals maximum Negative emotion and 10 maximum positive emotion.
         You Follow strictly the Mindworks Emotional model and only give the Emotional dimensions and a number, positive or negative denoting good or bad emotion, and a number from 1 to 10 denoting intensity
 
         Underlying aspect      emotional dimension:
