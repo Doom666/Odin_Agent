@@ -1,35 +1,21 @@
-# Import the required libraries
-import streamlit as st
-import langchain as lc
-from dotenv import load_dotenv
-import os
-
-load_dotenv()  # Load environment variables from .env file
-api_key = os.getenv("OPENAI_API_KEY")
-import openai
-
-# Use the `api_key` variable wherever you need to authenticate with OpenAI
-openai.api_key = api_key
-# Create a title for the app
-st.title("Habit Tracking App with Langchain and ChatGPT")
-def main():
-    # Create a sidebar for user input
-    st.sidebar.header("User Input")
-    user_name = st.sidebar.text_input("Enter your name")
-    user_habit = st.sidebar.text_input("Enter your habit")
-
-    # Create a main section for the app
-    st.header(f"Hello, {user_name}!")
-    st.write(f"Your habit is: {user_habit}")
-    st.checkbox("Morning Rutine")
-    """
-
-
-"""
-    # Create a button to end the app
-    if st.button("End"):
-        st.write("Thank you for using the Habit Tracking App. Have a nice day!")
-
-
-if __name__ == "__main__":
-    main()
+# this module is all about tracking habits.
+# so what functionality must have?
+# one can add a habit and a goal.
+# They can be ticked off
+# they are different types of counters:
+# bad habits, good habits, times done the habit, ammount of X needs to be greater than N to tick.
+# It must track the date and time of every interaction
+## datetime - HabitName - Changedstatus
+# information can be retrieved and modified
+# Variables:
+#Required:name, Type(checkbox, counter, ammount, to_learn, to_ditch), time(dayly, weekly, on_day(1-7), custom)
+#optional, to be filled up with time: initiating_motive, values, future_impact_score, percieved_difficulty, criticality_score, Failiure_strategy, reward_ strategy 
+# the optional variables will come very usefull, as they will be fed to the llm to give proper advice.
+# create habit
+# update habit
+# delete habit
+# check habit
+# I suppose that this will require a database perhaps a graph database
+# isupose that it will need a habit class and when creating a new habit, it will create another object of it.
+# the secondary values are "Unknown by default", but they can have a value with a tag prefix, like GUESS:Indicating that the lmm has valued them, DERIVED:the value has been logically deducted,
+# or no tag meaning that user has answered by himself.
