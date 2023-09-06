@@ -1,3 +1,4 @@
+![](./OdincoverIG.jpg)
 # Odin - Wisdom. 
 ### Your coach, strategist, psycologist and life ally
 Your life Ally, Life and executive coach, project and task management system, intelectual companion and mental health professional.
