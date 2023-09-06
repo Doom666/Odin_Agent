@@ -18,7 +18,7 @@ Different tipes of memory
 Designed to help you improve your thinking, not thinking for you.
 Engine designed to formulate carefully crafted questions.
 context aware: finds the most appropiated time to answer, ask, or reminding.
-(Reasoning Module)[./Reasoning engine/reasoning.md]populates a knowledge map from your interactions, used later to reason, adapt to you and guide his coaching strategy
+(Reasoning Module)[./Reasoning_engines/reasoning.md]populates a knowledge map from your interactions, used later to reason, adapt to you and guide his coaching strategy
 multiple parts orchestrated together, like the brain
 it future projects and predicts future possibilities provavilities
 
