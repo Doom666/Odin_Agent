@@ -25,13 +25,11 @@ Applied theories of psycology, neuroscience, and spirituality
 Agency powered by survival in an ever running simulated inner envioronment
 
 Inner Thought processes and devates.
-tracks your cogniion and analizes it for cognitive patterns of interest.
-
-different tipes of memory
-
-desiged to help you improve yourthinking, indtead of doing it for you.
-
-has an engine specially made to create hot only questions, but the very questions that you most need to answer,
-finds the most appropiated time to answer, ask, or remind of thig as he is context aware.
-
-Automaticaly logs k
+tracks your cognition and analizes it for patterns of interest.
+Different tipes of memory
+Designed to help you improve your thinking, not thinking for you.
+Engine designed to formulate carefully crafted questions.
+context aware: finds the most appropiated time to answer, ask, or reminding.
+populates a knowledge map from your interactions, used later to reason, adapt to you and guide his coaching strategy
+multiple parts orchestrated together, like the brain
+it future projects and predicts future possibilities provavilities
