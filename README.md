@@ -6,6 +6,9 @@ Your life Ally, Life and executive coach, project and task management system, in
 helps you plan ahead. helps you uncover your core values, it helps you arive to conclusions and think clearly, keeps track of your cognition and reflects back to you what he observes. It forces you to reason, or to take a break, it reminds you of whats important, uncovers any mental patterns working against you and guides you on how to rewire them to your benefit and much more.
 he is not conceived to be a nice companion, he is a battle ally, in the war to realizing your dreams and creating the life you love.
 
+### I seek people
+If this project interests you, open a discussion so we can get in contact!
+
 ### The Æagard system
 Autonomous AI agents designed to have a cognition, to be Mind-ergonomic, cybernetic and trully intelligent. 
 imagine the best experts, with the greatest understandings achieved by humanity, behind your back, 24/7 with a singular mission. Your success.
