@@ -1,4 +1,5 @@
-# Asgard-System
+
+## Odin AI - Human wisdom
 VP: a conversational interface to help you achieve your greatest potential, re-wire your mindset, plan and structure your life, and coach you in the roadmap to your success.
 
 **Inquiry based coaching:** All coaches know that the way to help a person is not to tell them what they have to do, but make them arrive to the conclusions of what is the right course of action for them. Most of the help from Odin comes shaped in the form of questions that the user answers in the interface.
