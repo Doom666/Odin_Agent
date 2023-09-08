@@ -1,5 +1,3 @@
-# the goal of this code is to create a functional Chat Bot with longterm memory with langchain and VertexAI
-
 from langchain.chat_models import ChatVertexAI
 from langchain.schema import AIMessage, HumanMessage, SystemMessage
 from langchain.chains import ConversationChain  
@@ -12,6 +10,7 @@ from langchain.prompts import (
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 
+#creating a langchain tool for setting up alarms
 
 
 chat = ChatVertexAI(max_output_tokens=350)
